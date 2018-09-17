@@ -11,4 +11,5 @@ pipeline {
                 sh 'mvn clean verify -Pbrowser-chrome'
             }
         }
+	}
 }
